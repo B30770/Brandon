@@ -36,6 +36,7 @@ public class GUIBrandon extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         jLabel1.setText("Brandon badilla");
 
         jLabel2.setText("Nombre : ");
