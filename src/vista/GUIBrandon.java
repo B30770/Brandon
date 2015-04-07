@@ -33,6 +33,7 @@ public class GUIBrandon extends javax.swing.JFrame {
         btnSalir = new javax.swing.JButton();
         btnAgregar = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -51,6 +52,8 @@ public class GUIBrandon extends javax.swing.JFrame {
         btnAgregar.setText("Agregar");
 
         jLabel3.setText("Compartir : ");
+
+        jLabel4.setText("Paola Jimenez");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -71,7 +74,9 @@ public class GUIBrandon extends javax.swing.JFrame {
                                 .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel3))
+                        .addComponent(jLabel3)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel4))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(80, 80, 80)
                         .addComponent(jLabel1)))
@@ -87,7 +92,9 @@ public class GUIBrandon extends javax.swing.JFrame {
                     .addComponent(jLabel2)
                     .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
-                .addComponent(jLabel3)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel4))
                 .addGap(31, 31, 31)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAgregar)
@@ -144,6 +151,7 @@ public class GUIBrandon extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
 }
